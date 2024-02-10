@@ -192,10 +192,10 @@ void loop()
           }
           else{
           switch (code) {
-            case _PS2_UP_ARROW:     m = _KEY_K - 0x40;     ; break;
-            case _PS2_DOWN_ARROW:   m = _KEY_J - 0x40;     ; break;
-            case _PS2_LEFT_ARROW:   m = _KEY_H - 0x40;     ; break;
-            case _PS2_RIGHT_ARROW:  m = _KEY_U - 0x40;   ; break;
+            case _PS2_UP_ARROW:     m = _KEY_UP_ARROW;     ; break;
+            case _PS2_DOWN_ARROW:   m = _KEY_DOWN_ARROW;     ; break;
+            case _PS2_LEFT_ARROW:   m = _KEY_LEFT_ARROW;     ; break;
+            case _PS2_RIGHT_ARROW:  m = _KEY_RIGHT_ARROW;   ; break;
             //case _PS2_RIGHT_ALT:    m = _CODE    ; break;
             //case _PS2_RIGHT_CTRL:   m = _CONTROL ; break;
             //case _PS2_LEFT_GUI:     m = _SPACE   ; break;

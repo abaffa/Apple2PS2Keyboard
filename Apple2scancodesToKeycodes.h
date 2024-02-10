@@ -32,8 +32,8 @@
 #define _KEY_7  0x37 
 #define _KEY_8  0x38 
 #define _KEY_9  0x39 
-#define _KEY_COLON  0x2d
-#define _KEY_MINUS  0x3d 
+#define _KEY_COLON  0x3a
+#define _KEY_MINUS  0x2d 
 #define _KEY_SEMICOLON  0x3B 
 #define _KEY_A  0x41  
 #define _KEY_B  0x42 
